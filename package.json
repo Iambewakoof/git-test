@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "(http://github.com/Iambewakoof/git-test)",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iambewakoof/git-test.git"
+  },
+  "author": "shreya goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iambewakoof/git-test/issues"
+  },
+  "homepage": "https://github.com/Iambewakoof/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
